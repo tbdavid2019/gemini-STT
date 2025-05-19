@@ -79,12 +79,12 @@ class GeminiVoiceToText:
         # 添加各種語言的翻譯指令
         translations = []
         
-        # 預設添加中文翻譯
-        translations.append("then on a new line after '中文翻譯：' show the Chinese translation")
+        # 預設添加繁體中文翻譯
+        translations.append("then on a new line after '繁體中文：' show the Traditional Chinese (zh-TW) translation. Always use Traditional Chinese characters, not Simplified Chinese")
         
         # 根據設定添加其他語言翻譯
         if self.enable_japanese:
-            translations.append("then on a new line after '日本語翻訳：' show the Japanese translation")
+            translations.append("then on a new line after '日本語：' show the Japanese translation")
         
         if self.enable_korean:
             translations.append("then on a new line after '한국어 번역：' show the Korean translation")
