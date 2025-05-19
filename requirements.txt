@@ -1,0 +1,8 @@
+# 必要的 Python 套件
+# 注意：在安裝 pyaudio 之前，請先安裝 PortAudio 庫
+# 在 Mac 上：brew install portaudio
+websockets
+python-dotenv
+pyaudio
+serve
+# 安裝 PyAudio 的特殊指令在 README.md 中
