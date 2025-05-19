@@ -2,6 +2,8 @@
 
 這是一個使用 Google Gemini API 進行即時語音辨識與翻譯的應用程式。
 
+![alt text](image.png)
+
 ## 功能特點
 
 - 透過麥克風擷取即時語音
